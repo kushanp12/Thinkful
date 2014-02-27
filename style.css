@@ -1,0 +1,149 @@
+body{
+	width: 1060px;
+	
+	margin: auto;
+	
+	font-family: Verdana, geneva, sans-serif;
+
+}
+
+hr{
+	width: 75%;
+
+	border-color: #F0F0F0;
+}
+
+h1 {
+
+	width: 400px;
+
+	margin-right: auto;
+
+	font-size: 28px;
+	font-family: "Courier New", Courier, monospace;
+
+}
+
+nav{
+	text-align: center;
+
+	margin-top: 50px;
+
+	position: relative;
+}
+
+ul {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+li{
+	display: inline-block;
+	
+	font-size: 14px;
+}
+
+li a {
+	
+
+	text-decoration: none;
+	
+	color: gray;
+	
+	margin: 10px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+body nav ul li a:hover{
+
+	background-color: #FF6600;
+	
+	color: white;
+	
+	opacity: .5;
+
+	border-radius: 5px;
+	
+}
+
+section {
+	clear: both;
+	
+	margin-top: 90px;
+}
+
+img {
+
+	border: 2px solid black;
+}
+
+aside {
+	width: 330px;
+	
+	float: right;
+	
+	background-color: #99FF66;
+	
+	opacity: .5;
+	
+	color: black;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0px solid green;
+
+	border-right-width: thick;
+	border-bottom-width: thick;
+	
+	padding: 20px 2px 1px 20px;
+
+	line-height: 1.5;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+footer {
+	background-color: lightgray;
+	
+	margin-top: 50px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	padding: 5px 5px 8px 10px;
+
+	font-size: 14px;
+
+	color: gray;
+}
+
+p.info {
+	text-align: center;
+}
+
+h6 {
+	
+	display: inline;
+	
+	margin-left: 500px;
+}
+
+button{
+	background-color: chartreuse;
+	
+	color: white;
+	
+	font-family: Verdana;
+	
+	border-radius: 35px;
+	
+	opacity: .8;
+}
